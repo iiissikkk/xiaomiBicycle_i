@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+/* html {
+  scroll-behavior: smooth;
+} */
+
 ul {
   margin: 0;
   padding: 0;
@@ -67,7 +71,7 @@ body {
 }
 
 .bike {
-  padding: 100px 0 150px;
+  padding: 100px 0 0px;
 }
 
 .bike__inner {
@@ -177,7 +181,8 @@ body {
 }
 
 .info {
-  margin-bottom: 150px;
+  padding-top: 150px;
+  margin-bottom: 50px;
 }
 
 .info__inner {
@@ -210,6 +215,7 @@ body {
 }
 
 .characteristics {
+  padding-top: 100px;
   margin-bottom: 150px;
 }
 
@@ -403,4 +409,45 @@ body {
 .form__btn:hover {
   background-color: #ff4040;
   color: #fff;
+}
+
+.footer {
+  background-color: #131313;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.footer__link {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__social-link + .footer__social-link {
+  margin-left: 26px;
+}
+
+.footer__contacts {
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__contacts-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer__contacts-link + .footer__contacts-link {
+  margin-top: 10px;
+}
+
+.footer__contacts-img {
+  margin-right: 10px;
 }
